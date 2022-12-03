@@ -24,15 +24,15 @@ function App() {
   return (
   <>
      <div className=" App ">
-       <Navbar title="Text Manipulating" aboutweb="About Us" mode={mode} toggleMode={toggleMode} />
+       <Navbar title="Text Manipulating" mode={mode} toggleMode={toggleMode} />
      
       <div className="container">
       
-       {/* <Textform heading="Enter Your Text Below!" mode={mode} />*/}
+       <Textform heading="Enter Your Text Below!" mode={mode} />
         
        </div>
    
-  <Textform heading="Enter Your Text Below!" mode={mode} />
+  
   
   
        
