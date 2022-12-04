@@ -59,8 +59,8 @@ export default function Textform(props) {
            <button className="btn btn-primary m-1" onClick={handleloclick}>Convert to Lowercase</button>
            <button className="btn btn-primary m-1" onClick={handleClearclick}>Clear Text</button>
            <button className="btn btn-primary m-1" onClick={handleExtraSpaces}>Remove Extra Spaces </button>
-           <button className="btn btn-primary mx-2" onClick={handleCapitalizeFirstLetter}>Capitalize First Letter</button>
-           <button className="btn btn-primary mx-2" onClick={handleCopyClick}>Copy to Clipboard</button>
+           <button className="btn btn-primary m-1" onClick={handleCapitalizeFirstLetter}>Capitalize First Letter</button>
+           <button className="btn btn-primary m-1" onClick={handleCopyClick}>Copy to Clipboard</button>
            <button className="btn btn-primary m-1" onClick={reversed}>Reverse </button>
            <button className="btn btn-primary m-1" onClick={speak}>Voice Text</button>
         </div>
