@@ -2,6 +2,7 @@ import Navbar from './compnents/Navbar';
 import './App.css';
 import Textform from './compnents/Textform';
 import React, {useState} from 'react';
+import About from './compnents/About';
 
 
 
@@ -29,13 +30,9 @@ function App() {
       <div className="container">
       
        <Textform heading="Enter Your Text Below!" mode={mode} />
+       <About/>
         
-       </div>
-   
-  
-  
-  
-       
+       </div>     
   </div>
   </>
   );
